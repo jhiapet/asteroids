@@ -1,0 +1,6 @@
+var isSoccerFan = new Boolean();
+if (isSoccerFan === true) {
+  	console.log('Goal!');
+} else {
+  	console.log('No Goal!');
+}
