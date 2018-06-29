@@ -1,6 +1,21 @@
+//Control flow with Boolean
 var isSoccerFan = new Boolean();
 if (isSoccerFan === true) {
   	console.log('Goal!');
 } else {
   	console.log('No Goal!');
+}
+//Truthyness
+let isRaining = true;
+if (isRaining) {
+   console.log('Carry an umbrella!');
+} else {
+  console.log('Enjoy the sun!');
+}
+/*JavaScript provides an operator for swapping the truthiness and falsiness of values - the exclamation point (!). We can use this in conditional statements as shorthand to check if the value of a variable evaluates to false rather than true.*/
+let isPhoneCharged = true; 
+if (!isPhoneCharged) {
+  console.log('Plug in your phone!');
+} else {
+  console.log('No need to charge!');
 }
