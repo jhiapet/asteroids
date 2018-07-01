@@ -5,6 +5,7 @@ if (isSoccerFan === true) {
 } else {
   	console.log('No Goal!');
 }
+
 //Truthyness
 let isRaining = true;
 if (isRaining) {
@@ -19,3 +20,20 @@ if (!isPhoneCharged) {
 } else {
   console.log('No need to charge!');
 }
+
+//switch statements
+var moonPhase;
+switch (moonPhase) {
+  case 'full':
+    console.log('Howl!');
+    break;
+  case 'mostly full':
+    console.log('Arms and legs are getting hairier');
+    break;
+  case 'mostly new':
+    console.log('Back on two feet');
+    break;
+	default:
+    console.log('Invalid moon phase');
+    break;
+    }
