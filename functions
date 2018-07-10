@@ -1,0 +1,36 @@
+//Basic Function Format 
+var nameOfvariable = (variable.data) => {
+  console.log('Text output' + variable.data);
+};
+nameOfvariable('inputFor.variable.data');
+
+//Multiple Parameters Function Template - Function for average of 2 number
+const getAverage = (numberOne, numberTwo) => {
+  const average = (numberOne + numberTwo) / 2 ;
+  console.log(average);
+};
+
+getAverage(365, 27);
+//Multiple Parameters function example: Pizza
+var takeOrder = (topping, crustType) => {
+  console.log(`Order: ${crustType} pizza topped with ${topping}`);
+};
+
+takeOrder('mushrooms', 'thin crust');
+
+//Using Return with 2 functions
+var orderCount = 0;
+const takeOrder = (topping, crustType) => {
+  console.log('Order: ' + crustType + ' pizza topped with ' + topping);
+  orderCount ++;
+};
+var getSubTotal = (itemCount) => {
+  return itemCount * 7.5
+};
+takeOrder('mushroom', 'thin crust');
+takeOrder('spinach', 'whole wheat');
+takeOrder('pepperoni', 'brooklyn style');
+console.log(getSubTotal(orderCount));
+
+
+
