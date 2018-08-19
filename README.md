@@ -1,2 +1,0 @@
-# asteroids
-learning 1
